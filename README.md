@@ -1,1 +1,1 @@
-# rb-frontend
+# RB fronend template
