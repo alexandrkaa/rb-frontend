@@ -1,0 +1,27 @@
+$breakpoints: (
+  mobile: 320px,
+  mobile-xl: 414px,
+  tablet: 768px,
+  tablet-landscape: 1024px,
+  desktop-s: 1170px,
+  desktop-m: 1440px,
+  desktop-xl: 1900px
+);
+
+$cl-blue: darken(#00a1ff, 5%);
+// $cl-blue: #00a1ff;
+$cl-yellow: #ffd800;
+$cl-black: #1c3144;
+$cl-grey: #a2aebb;
+$cl-blue-light: #edf7f6;
+$cl-white: #ffffff;
+$cl-transparent: rgba(255, 255, 255, 0);
+$cl-grey: #cccccc;
+$cl-grey-light: #f7f7f7;
+
+// critical css
+@import "normalize";
+@import "mixin.scss";
+@import "fonts.scss";
+@import "global.scss";
+@import "blocks/visually-hidden.scss";

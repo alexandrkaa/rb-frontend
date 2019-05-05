@@ -1,0 +1,38 @@
+body {
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  min-width: map-get($breakpoints, mobile);
+  padding: 0;
+  color: $cl-black;
+  background-color: $cl-white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Proxima Nova Black", "Arial", "Helvetica", sans-serif;
+}
+
+/* stylelint-disable */
+.grecaptcha-badge {
+  width: 70px !important;
+  overflow: hidden !important;
+  // transition: all 0.3s ease !important;
+  // left: 4px !important;
+  left: -100% !important;
+  right: auto;
+}
+
+.grecaptcha-badge:hover {
+  width: 256px !important;
+}

@@ -1,0 +1,42 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v18-latin_cyrillic-regular.eot");
+  src: local("Roboto"), local("Roboto-Regular"), url("../fonts/roboto-v18-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v18-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto-v18-latin_cyrillic-regular.woff") format("woff"), url("../fonts/roboto-v18-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/roboto-v18-latin_cyrillic-regular.svg#Roboto") format("svg");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v18-latin_cyrillic-700.eot");
+  src: local("Roboto Bold"), local("Roboto-Bold"), url("../fonts/roboto-v18-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v18-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/roboto-v18-latin_cyrillic-700.woff") format("woff"), url("../fonts/roboto-v18-latin_cyrillic-700.ttf") format("truetype"), url("../fonts/roboto-v18-latin_cyrillic-700.svg#Roboto") format("svg");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Proxima Nova";
+  src: url("../fonts/ProximaNova-Regular.woff") format("woff"), url("../fonts/Proxima-Nova-Regular.woff2") format("woff2"), url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Proxima Nova";
+  src: url("../fonts/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Proxima Nova Black";
+  src: url("../fonts/ProximaNova-Black.eot");
+  src: url("../fonts/ProximaNova-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Black.woff") format("woff"), url("../fonts/ProximaNova-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

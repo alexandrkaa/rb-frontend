@@ -1,0 +1,51 @@
+/* stylelint-disable */
+@mixin list-reset {
+  list-style: none;
+  //margin: 0;
+  padding: 0;
+}
+
+@mixin mq($breakpoint) {
+  // Goes to $breakpoints map and gets each $breakpoint value (if any)
+  @if map-has-key($breakpoints, $breakpoint) {
+    // Create a media query based on that $breakpoint value
+    @media (max-width: #{map-get($breakpoints, $breakpoint)}) {
+      @content;
+    }
+  }
+  @else {
+    @warn "Breakpoint doesn't exist, please check breakpoints map";
+  }
+}
+
+@mixin is-active {
+  &:focus,
+  &:active {
+    @content;
+  }
+}
+
+@mixin mqie {
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10+ CSS styles go here */
+    @content;
+  }
+}
+
+@mixin center($position) {
+  position: absolute;
+
+  @if $position == 'vertical' {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @else if $position == 'horizontal' {
+    left: 50%;
+    transform: translate(-50%);
+  }
+  @else if $position == 'both' {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

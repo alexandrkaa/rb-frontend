@@ -1,0 +1,84 @@
+{
+  "name": "rb-frontend-template",
+  "version": "0.1.0",
+  "private": true,
+  "description": "RB frontend template",
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.4",
+    "@htmlacademy/editorconfig-cli": "1.x",
+    "autoprefixer": "9.1.x",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "eslint": "^5.15.1",
+    "gulp": "4.0.x",
+    "gulp-babel": "^8.0.0",
+    "gulp-brotli": "^1.2.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-gzip": "^1.4.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-include": "^2.3.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-plumber": "1.2.x",
+    "gulp-postcss": "8.0.x",
+    "gulp-posthtml": "^3.0.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "4.0.x",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svgstore": "^7.0.1",
+    "gulp-util": "^3.0.8",
+    "gulp-webp": "^3.0.0",
+    "gulp-zip": "^4.2.0",
+    "npm": "^6.8.0",
+    "posthtml-include": "^1.2.0",
+    "stylelint": "^9.10.1",
+    "stylelint-config-htmlacademy": "0.1.x",
+    "vinyl-ftp": "^0.6.1"
+  },
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
+    "test": "npm run editorconfig && npm run stylelint",
+    "build": "npm run editorconfig && npm run stylelint && gulp build",
+    "deploy": "gulp deploy",
+    "start": "gulp start"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE 11",
+    "Firefox ESR"
+  ],
+  "editorconfig-cli": [
+    "*.json",
+    "*.js",
+    "source/*.html",
+    "source/js/**/*.js",
+    "source/img/**/*.svg",
+    "source/sass/**/*.{sass,scss}"
+  ],
+  "engines": {
+    "node": "10.15.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "micromodal": "^0.3.2",
+    "node-normalize-scss": "^8.0.0",
+    "npx": "^10.2.0",
+    "picturefill": "^3.0.3"
+  },
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandrkaa/rb-frontend"
+  },
+  "author": "Alexander Komarov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandrkaa/rb-frontend/issues"
+  },
+  "homepage": "https://github.com/alexandrkaa/rb-frontend#readme"
+}

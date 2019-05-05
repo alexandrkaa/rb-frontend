@@ -1,0 +1,17 @@
+.DS_Store
+.idea
+.vscode
+.ftpcred.json
+*.ai
+*.log
+*.pdf
+#*.psd
+*.sublime*
+build/
+build-zip/
+#node_modules/
+npm-debug.*
+#source/css/*.css
+Thumbs.db
+.ftpconfig
+#template/
