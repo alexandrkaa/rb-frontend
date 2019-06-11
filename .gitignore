@@ -9,7 +9,7 @@
 *.sublime*
 build/
 build-zip/
-#node_modules/
+node_modules/
 npm-debug.*
 #source/css/*.css
 Thumbs.db
