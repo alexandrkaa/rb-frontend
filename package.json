@@ -64,7 +64,7 @@
     "node": "10.15.3"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "micromodal": "^0.3.2",
     "node-normalize-scss": "^8.0.0",
     "npx": "^10.2.0",
